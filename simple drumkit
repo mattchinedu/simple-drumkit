@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: red;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.set{
+    display: flex;
+    margin: 10% auto;
+    border-top: 14px;
+    
+}
+.drum{
+margin: 5px;
+outline: none;
+border:10px solid #404b69;
+font-size: 5rem;
+font-family: 'arvo',cursive;
+line-height: 2;
+font-weight: 900;
+color: #da0463;
+text-shadow: 3px 0 #dbedf3;
+border-radius: 15px;
+display: inline-block;
+width: 150px;
+height: 150px;
+text-align: center;
+
+
+}
+
+footer{
+    text-align: center;
+    
+}
+
+var numberOfDrum=document.querySelectorAll(".drum").length;
+for(var i=i;i<numberOfDrum;i++){
+    document.querySelectorAll(".drum")[1].addEventListener("click",function(){
+        alert("i got click!");
+        });
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my html and css class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="tittle">Drum kit design</h1>
+
+    <div class="set">
+        <button class="w drum">w</button>
+        <button class="a drum">a</button>
+        <button class="s drum">s</button>
+        <button class="d drum">d</button>
+        <button class="j drum">j</button>
+        <button class="k drum">k</button>
+        <button class="l drum">l</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="style.js" charset="utf-8"></script>
+</body>
+<footer>with love in london.</footer>
+
+</html>
